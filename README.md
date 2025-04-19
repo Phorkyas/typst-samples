@@ -7,7 +7,10 @@ Recommended: install an IDE for live previews, e.g. VSCode/VSCodium with extensi
 
 ## Producing chess diagrams
 
-Compiling the typst example file is as easy as:
+In the chess subfolder you can find an example for a sheet that could be used
+for chess exercises. Compiling the typst example file is as easy as:
 
     typst c chess/partie.typ
 
+It uses the [board n pieces library](https://typst.app/universe/package/board-n-pieces/), 
+where you can find more examples to customize the appearance of your board.
